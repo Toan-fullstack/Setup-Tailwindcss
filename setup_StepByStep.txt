@@ -13,5 +13,6 @@ Step 2:
  create folder: build-> create file tailwind.css
  run terminal with code:
  npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
+ link file <link rel="stylesheet" href="./build/tailwind.css" /> in html
 Step 3:
 npm run dev
