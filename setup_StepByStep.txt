@@ -11,6 +11,11 @@ Step 1:
      "dev": "vite"
    },
 Step 2:
+create folder css-> tailwind.css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
  create folder: build-> create file tailwind.css
  run terminal with code:
  npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
