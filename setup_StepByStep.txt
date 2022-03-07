@@ -20,5 +20,6 @@ create folder css-> tailwind.css
  run terminal with code:
  npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
  link file <link rel="stylesheet" href="./build/tailwind.css" /> in html
+ add content in tailwind config: content: ["./**/*.html", "./**/*.{js,jsx,ts,tsx,vue}"],
 Step 3:
 npx run dev
