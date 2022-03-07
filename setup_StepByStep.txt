@@ -1,0 +1,17 @@
+prepare installed Nodejs
+Step 1: 
+ run terminal with:
+ npm init -y
+ npm install -D tailwindcss postcss autoprefixer vite
+ npm tailwindcss init -p
+ open file : package.json 
+ replace code : 
+ "scripts": {
+     "dev": "vite"
+   },
+Step 2:
+ create folder: build-> create file tailwind.css
+ run terminal with code:
+ npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
+Step 3:
+npm run dev
