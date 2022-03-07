@@ -1,6 +1,7 @@
 prepare installed Nodejs
 Step 1: 
  run terminal with:
+ npm install -g
  npm init -y
  npm install -D tailwindcss postcss autoprefixer vite
  npm tailwindcss init -p
@@ -15,4 +16,4 @@ Step 2:
  npx tailwindcss-cli build css/tailwind.css -o build/tailwind.css
  link file <link rel="stylesheet" href="./build/tailwind.css" /> in html
 Step 3:
-npm run dev
+npx run dev
